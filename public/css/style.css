@@ -1,0 +1,113 @@
+body {
+  font-family: 'Arvo', sans-serif;
+  background-color: rgba(0,0,0, .1);
+}
+
+.navbar-default .navbar-brand {
+  border-right: solid 1px black;
+  color: white;
+  background-color: rgba(0,0,0,.1);
+}
+
+.con-body {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+  padding-bottom: 200px;;
+}
+
+.navbar-inverse {
+  border-radius: 0px;
+}
+
+.cust-form {
+  background-color: rgba(0, 0, 0, .1);
+  padding: 10%;
+  width: 100%;
+}
+
+.cust-form .btn-primary {
+  margin-top: 7%;
+  width: 100%;
+  padding: 10px;
+  font-size: x-large;
+}
+
+.cust-form input, .cust-form textarea {
+  padding: 20px;
+  font-size: large;
+  border-radius: 0px;
+  margin-bottom: 5%;
+}
+
+#recipesCon {
+  margin-top: 50px;
+}
+
+.recipeCon {
+  margin-top: 10px;
+}
+
+.recipe {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, .1);
+}
+.recipe .recipe-ingre, .recipe .recipe-name {
+  margin-top: 5%;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+li.list-group-item {
+  padding-bottom: 25px;
+}
+
+span.name {
+
+}
+
+.recipe .recipe-instruc, .recipe .recipe-name {
+  margin-top: 5%;
+  background-color: white;
+  padding: 5px 10px;
+}
+
+.recipe .btn-group {
+  margin-top: 5%;
+}
+
+.recipe .btn-group * {
+  margin-right: 10px;
+}
+
+.glyphicon.glyphicon-pencil{ 
+  display: inline-block; 
+  text-align: right;
+}
+
+
+.buttons{
+  float: right;
+}
+
+.edit {
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: .2;
+  padding-right: 10px;
+  padding-top: 2px;
+}
+.edit:hover,
+.edit:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  filter: alpha(opacity=50);
+  opacity: .5;
+}
+
+.collapse {
+  padding-top: 10px;
+}
