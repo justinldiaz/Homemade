@@ -114,5 +114,5 @@ app.delete("/recipes/:id", function (req, res){
 });
 
 app.listen(3000, function () {
-  console.log("WORKING");
+  console.log("WORKING at: http://localhost:3000");
 });
